@@ -1,0 +1,32 @@
+#log_space{
+	float: left;
+	width: 35%;	
+}
+
+#movie_space {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    margin-left: 20px;
+    height: 0;
+    overflow: hidden;
+}
+
+#movie_space iframe,  
+#movie_space object,  
+#movie_space embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+}
+
+@media screen and (min-width: 768px) {
+	#movie_space iframe,  
+	#movie_space object,  
+	#movie_space embed {
+		width: 60%;
+		height: 60%;
+	}
+}

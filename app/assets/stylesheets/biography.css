@@ -1,0 +1,36 @@
+#artist_photo{
+	width: 100%;
+}
+#comment {
+	margin-top: 20px;
+	color: #800000;
+	padding: 10px;
+}
+
+#member_title{
+	color: #DA6650;
+}
+
+#history{
+	color: #DA6650;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	font-size: 80%;
+}
+
+#history div{
+	margin-top: 5px;
+}
+@media screen and (min-width: 768px) {
+	#history{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		font-size: 100%;
+	}
+	#history div{
+		margin-top: 10px;
+	}
+	#artist_photo{
+		width: 70%;
+	}
+}

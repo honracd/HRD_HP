@@ -1,0 +1,23 @@
+<div id="contents">
+	<div class="flexslider">
+ 		<ul class="slides">
+			<li>
+				<a href="https://google.co.jp"><%= image_tag '/hrd_top_img1.jpg', :alt => 'Hondo Raccoon Dogs' %></a>
+			</li>
+			<li>
+				<a href="https://google.co.jp"><%= image_tag '/hrd_top_img2.jpg', :alt => 'Hondo Raccoon Dogs' %></a>
+			</li>
+		</ul>
+	</div>
+	<div id="log_space"></div>
+	<div id="movie_space">
+		<iframe src="//www.youtube.com/embed/z484xT1VZik" frameborder="0" allowfullscreen></iframe>
+	</div>
+</div>
+<script>
+	$(window).load(function() {
+		$('.flexslider').flexslider({
+			animation: "slide"
+		});
+	});
+</script>
